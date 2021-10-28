@@ -40,13 +40,6 @@ dos2unix unmount_images.sh
 ```
 
 
-```bash
-cd ..
-chmod +x extend_and_mount_images.sh
-chmod +x apply_certs.sh
-chmod +x unmount_images.sh
-```
-
 Set executable permission for the scripts
 
 ```bash

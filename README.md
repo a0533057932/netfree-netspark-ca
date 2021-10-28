@@ -31,6 +31,22 @@ paths in wsl follow the same as windows after /mnt/ its just the drive letter th
 
 ### Edit scripts
 
+Set scripts to unix format
+```bash
+cd ..
+dos2unix extend_and_mount_images.sh
+dos2unix apply_certs.sh
+dos2unix unmount_images.sh
+```
+
+
+```bash
+cd ..
+chmod +x extend_and_mount_images.sh
+chmod +x apply_certs.sh
+chmod +x unmount_images.sh
+```
+
 Set executable permission for the scripts
 
 ```bash
